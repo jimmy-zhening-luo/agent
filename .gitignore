@@ -50,4 +50,5 @@ node_modules/
 
 
 #region @configure
+next-env.d.ts
 #endregion
