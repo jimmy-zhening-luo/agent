@@ -1,0 +1,53 @@
+##############################
+####      .gitignore      ####
+####   @version 253.0.0   ####
+##############################
+
+#@doc https://git-scm.com/docs/gitignore
+
+#region Folder (./)
+# Build
+/dist/
+/build/
+/packed/
+/types/
+# Local
+/input/
+/output/
+#endregion
+
+
+#region Folder
+# Build
+node_modules/
+.svelte-kit/
+# Local
+.vscode/**
+!.vscode/**/launch.json
+!.vscode/**/.code-workspace
+!.vscode/**/*.code-snippets
+# Trash
+.Trash/
+#endregion
+
+
+#region File
+# Build
+*.dll
+*.exe
+*.tsbuildinfo
+.yarn-integrity
+# Local
+*.env
+*.env.*
+!*.env.example
+*.eslintcache
+*.log
+# Trash
+*.DS_Store
+*.icloud
+#endregion
+
+
+#region @configure
+#endregion

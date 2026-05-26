@@ -1,0 +1,50 @@
+{
+  "$pkg": "2414.0.0",
+  "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
+  "$schema": "https://json.schemastore.org/package",
+  "name": "npmpackage",
+  "version": "0.0.0",
+  "repository": "github:jimmy-zhening-luo/REPO",
+  "description": "",
+  "keywords": [],
+  "license": "MIT",
+  "private": true,
+  "engineStrict": true,
+  "engines": {
+    "node": "^24",
+    "npm": "^11"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "default": "./dist/index.js"
+    }
+  },
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "peerDependenciesMeta": {},
+  "dependencies": {},
+  "devDependencies": {
+    "linted": "41.8.0",
+    "ts-add-js-extension": "^1.6.6",
+    "typescript": "^6.0.3"
+  },
+  "scripts": {
+    "clean": "cmd /q /c \"for %G in (types dist build packed .svelte-kit) do (if exist %G rmdir /s /q %G) & for %G in (.eslintcache) do (if exist %G del /f /q %G)\" || rm -rf types dist build packed .svelte-kit .eslintcache",
+    "build": "tsc -b src && ts-add-js-extension --showprogress=false --dir=dist",
+    "build:svelte": "svelte-kit sync && svelte-check && vite build",
+    "prestart": "npm run build",
+    "start": "node .",
+    "start:svelte": "vite preview --open",
+    "lint": "eslint --cache --fix",
+    "pretest": "npm run build",
+    "test": "",
+    "posttest": "npm run lint || exit 0",
+    "prepublishOnly": "npm run clean && npm test",
+    "publish:release": "cmd /q /c \"for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" (npm publish) else (npm publish --tag=next)\" || bash -c 'if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm publish; else npm publish --tag=next; fi'",
+    "predeploy": "npm run clean && npm test",
+    "deploy": ""
+  },
+  "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
+}
