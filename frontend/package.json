@@ -9,8 +9,8 @@
     "preview": "vite preview"
   },
   "engines": {
-    "node": ">=18.18",
-    "npm": ">=9"
+    "node": "^24",
+    "npm": "^11"
   },
   "dependencies": {
     "@openai/chatkit-react": ">=1.5.1",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
-    "@types/node": "^22.19.19",
+    "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react-swc": "^3.11.0",
