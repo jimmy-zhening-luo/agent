@@ -1,6 +1,6 @@
 import * as path from "node:path";
 import { defineConfig } from "vite";
-import react from "@vitejs/plugin-react-swc";
+import react from "@vitejs/plugin-react";
 
 const backendTarget = process.env.CHATKIT_API_BASE ?? "http://127.0.0.1:8000";
 
