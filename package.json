@@ -21,6 +21,7 @@
     "linted": "41.8.0"
   },
   "scripts": {
+    "clean": "",
     "dev": "concurrently --kill-others-on-fail --names backend,frontend \"npm run backend\" \"npm run frontend\"",
     "frontend": "npm --prefix frontend install && npm --prefix frontend run dev",
     "backend": "./backend/scripts/run.sh"
