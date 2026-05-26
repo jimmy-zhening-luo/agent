@@ -24,7 +24,8 @@
     "clean": "",
     "dev": "concurrently --kill-others-on-fail --names backend,frontend \"npm run backend\" \"npm run frontend\"",
     "frontend": "npm --prefix frontend install && npm --prefix frontend run dev",
-    "backend": "./backend/scripts/run.sh"
+    "backend": "./backend/scripts/run.sh",
+    "test": ""
   },
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
