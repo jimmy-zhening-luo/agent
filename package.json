@@ -28,19 +28,9 @@
     "concurrently": "^9.1.2"
   },
   "scripts": {
-    "clean": "cmd /q /c \"for %G in (types dist build packed .svelte-kit) do (if exist %G rmdir /s /q %G) & for %G in (.eslintcache) do (if exist %G del /f /q %G)\" || rm -rf types dist build packed .svelte-kit .eslintcache",
-    "build": "tsc -b src && ts-add-js-extension --showprogress=false --dir=dist",
-    "build:svelte": "svelte-kit sync && svelte-check && vite build",
-    "prestart": "npm run build",
-    "start": "vite preview --open",
-    "lint": "eslint --cache --fix",
-    "pretest": "npm run build",
-    "test": "",
-    "posttest": "npm run lint || exit 0",
-    "prepublishOnly": "npm run clean && npm test",
-    "publish:release": "cmd /q /c \"for /f \"delims=-\" %a in (\"%npm_package_version%\") do if \"%a\" == \"%npm_package_version%\" (npm publish) else (npm publish --tag=next)\" || bash -c 'if [ \"${npm_package_version#*-}\" = \"${npm_package_version}\" ]; then npm publish; else npm publish --tag=next; fi'",
-    "predeploy": "npm run clean && npm test",
-    "deploy": ""
+    "dev": "concurrently --kill-others-on-fail --names backend,frontend \"npm run backend\" \"npm run frontend\"",
+    "frontend": "npm --prefix frontend install && npm --prefix frontend run dev",
+    "backend": "./backend/scripts/run.sh"
   },
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
