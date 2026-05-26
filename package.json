@@ -25,7 +25,8 @@
   "main": "dist/index.js",
   "dependencies": {},
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "concurrently": "^9.1.2",
+    "linted": "41.8.0"
   },
   "scripts": {
     "dev": "concurrently --kill-others-on-fail --names backend,frontend \"npm run backend\" \"npm run frontend\"",
