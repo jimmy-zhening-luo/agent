@@ -5,7 +5,11 @@
     "moduleResolution": "Node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "types": ["node"]
+    "types": [
+      "node",
+    ],
   },
-  "include": ["vite.config.ts"]
+  "include": [
+    "vite.config.ts",
+  ],
 }
