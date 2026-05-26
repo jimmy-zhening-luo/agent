@@ -4,9 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "clean": "",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "npm run dev"
   },
   "engines": {
     "node": "^24",
