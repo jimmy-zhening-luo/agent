@@ -15,18 +15,30 @@
     "npm": "^11"
   },
   "type": "module",
-  "dependencies": {},
+  "dependencies": {
+    "@openai/chatkit-react": ">=1.5.1",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
   "devDependencies": {
-    "concurrently": "^9.1.2",
-    "linted": "41.8.0"
+    "@tailwindcss/postcss": "^4.3.0",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "globals": "^17.6.0",
+    "linted": "41.8.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
   },
   "scripts": {
     "clean": "",
-    "dev": "npm run frontend",
-    "frontend": "npm --prefix frontend install && npm --prefix frontend run dev",
-    "frontend:build": "npm --prefix frontend install && npm --prefix frontend run build",
-    "frontend:lint": "npm --prefix frontend install && npm --prefix frontend run lint",
-    "test": ""
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npm run dev"
   },
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
