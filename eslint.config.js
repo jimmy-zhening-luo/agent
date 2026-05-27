@@ -5,9 +5,6 @@ export default linted(
     js: {
       files: ["frontend/*.{js,mjs}"],
     },
-    ts: {
-      files: ["frontend/src/**/*.ts"],
-    },
     html: {
       files: [
         "frontend/*.{html}",
