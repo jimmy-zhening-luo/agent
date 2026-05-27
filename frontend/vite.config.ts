@@ -1,8 +1,8 @@
-import * as path from "node:path";
-import { defineConfig } from "vite";
+import path from "node:path";
 import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
 
-const backendTarget = process.env.CHATKIT_API_BASE ?? "http://127.0.0.1:8000";
+const apiTarget = process.env.VITE_API_URL ?? "http://127.0.0.1:8000";
 
 export default defineConfig({
   // Allow env files to live one level above the frontend directory
@@ -13,7 +13,7 @@ export default defineConfig({
     host: "0.0.0.0",
     proxy: {
       "/chatkit": {
-        target: backendTarget,
+        target: apiTarget,
         changeOrigin: true,
       },
     },
