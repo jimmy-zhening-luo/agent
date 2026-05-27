@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-# Simple helper to start the ChatKit backend (similar to cat-lounge UX).
+# Start the Managed ChatKit FastAPI backend.
 
 set -euo pipefail
 
@@ -35,5 +35,8 @@ if [ -z "${OPENAI_API_KEY:-}" ]; then
   exit 1
 fi
 
-echo "Starting ChatKit backend on http://127.0.0.1:8000 ..."
+export PYTHONPATH="$PROJECT_ROOT${PYTHONPATH:+:$PYTHONPATH}"
+
+echo "Starting Managed ChatKit backend on http://127.0.0.1:8000 ..."
 exec uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+
