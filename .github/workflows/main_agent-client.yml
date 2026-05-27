@@ -26,16 +26,15 @@ jobs:
       - name: Install Dependencies
         id: ci
         run: npm ci --loglevel=error --fund=false
-      - name: Build Function App
+      - name: Build App
         id: build
         run: npm run deploy
       - name: Stage to Azure
         id: stage
         uses: actions/upload-artifact@v7
         with:
-          name: node-app
-          path: ./dist
-          if-no-files-found: error
+          name: agent-client
+          path: .
 
   deploy:
     runs-on: ubuntu-latest
@@ -45,10 +44,10 @@ jobs:
       contents: read
 
     steps:
-      - name: Download Staged Function App
+      - name: Download Staged App
         id: download
         uses: actions/download-artifact@v8
-        with: {name: node-app}
+        with: {name: agent-client}
       - name: Authenticate to Azure
         id: auth
         uses: Azure/login@v3
