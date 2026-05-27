@@ -30,7 +30,7 @@ jobs:
         with:
           # https://aka.ms/swaworkflowconfig
           action: upload
-          app_location: build
+          app_location: dist
           is_static_export: true
           skip_api_build: true
           skip_app_build: true
