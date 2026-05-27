@@ -34,11 +34,11 @@
     "vite": "^8.0.14"
   },
   "scripts": {
-    "clean": "",
+    "clean": "cmd /q /c \"for %G in (types dist build packed .svelte-kit) do (if exist %G rmdir /s /q %G) & for %G in (.eslintcache) do (if exist %G del /f /q %G)\" || rm -rf types dist build packed .svelte-kit .eslintcache",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "test": "npm run dev"
+    "test": "npm run build && npm run preview"
   },
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
