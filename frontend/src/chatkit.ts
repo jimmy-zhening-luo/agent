@@ -9,7 +9,7 @@ export default async function getChatKitSessionToken(
       Authorization: "Bearer " + process.env.VITE_OPENAI_API_SECRET_KEY,
     },
     body: JSON.stringify({
-      workflow: { id: "wf_68df4b13b3588190a09d19288d4610ec0df388c3983f58d1" },
+      workflow: { id: "wf_6a125c8857cc81909cdde94d16b23fd103b4f7945a5f0e42" },
       user: deviceId,
     }),
   }),
