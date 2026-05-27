@@ -8,7 +8,7 @@ import { ChatKit, useChatKit } from '@openai/chatkit-react';
              // implement session refresh
            }
 
-           const res = await fetch('/api/chatkit/session', {
+           const res = await fetch('/chatkit', {
              method: 'POST',
              headers: {
                'Content-Type': 'application/json',
