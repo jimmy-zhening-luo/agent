@@ -11,7 +11,7 @@ export const workflowId = (() => {
 
 export function createClientSecretFetcher(
   workflow: string,
-  endpoint = "/api/create-session"
+  endpoint = "/chatkit"
 ) {
   return async (currentSecret: string | null) => {
     if (currentSecret) return currentSecret;
