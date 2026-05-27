@@ -1,24 +1,29 @@
-import { ChatKit, useChatKit } from '@openai/chatkit-react';
+import {
+  ChatKit,
+  useChatKit,
+} from "@openai/chatkit-react";
 
-   export function MyChat() {
-     const { control } = useChatKit({
-       api: {
-         async getClientSecret(existing) {
-           if (existing) {
-             // implement session refresh
-           }
+export function MyChat() {
+  const { control } = useChatKit(
+    {
+      api: {
+        async getClientSecret(existing) {
+          if (existing) {
+            // implement session refresh
+          }
 
-           const res = await fetch('/chatkit', {
-             method: 'POST',
-             headers: {
-               'Content-Type': 'application/json',
-             },
-           });
-           const { client_secret } = await res.json();
-           return client_secret;
-         },
-       },
-     });
+          const res = await fetch('/chatkit', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+            },
+          });
+          const { client_secret } = await res.json();
+          return client_secret;
+        },
+      },
+    },
+  );
 
-     return <ChatKit control={control} className="h-[600px] w-[320px]" />;
-   }
+  return <ChatKit control={control} className="h-[600px] w-[320px]" />;
+}
