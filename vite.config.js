@@ -5,6 +5,7 @@ import { defineConfig } from "vite";
 const DEFAULT_API_TARGET = "http://127.0.0.1:8000",
 apiTarget = process.env.VITE_API_URL ?? DEFAULT_API_TARGET;
 
+/** @type {import('vite').UserConfig} */
 export default defineConfig({
   envDir: path.resolve(__dirname),
   plugins: [react()],
