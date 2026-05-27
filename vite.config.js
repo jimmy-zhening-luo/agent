@@ -2,7 +2,7 @@ import path from "node:path";
 import react from "@vitejs/plugin-react";
 import { defineConfig } from "vite";
 
-const DEFAULT_API_TARGET = "http://127.0.0.1:8000",
+const DEFAULT_API_TARGET = "https://agent-server.azurewebsites.net",
 apiTarget = process.env.VITE_API_URL ?? DEFAULT_API_TARGET;
 
 /** @type {import('vite').UserConfig} */
