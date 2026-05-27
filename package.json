@@ -37,8 +37,14 @@
     "clean": "cmd /q /c \"for %G in (types dist build packed .svelte-kit) do (if exist %G rmdir /s /q %G) & for %G in (.eslintcache) do (if exist %G del /f /q %G)\" || rm -rf types dist build packed .svelte-kit .eslintcache",
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "test": "npm run build && npm run preview"
+    "prestart": "npm run build",
+    "start": "vite preview --open",
+    "lint": "eslint --cache --fix",
+    "pretest": "npm run build",
+    "test": "",
+    "posttest": "npm run lint || exit 0",
+    "predeploy": "npm run clean && npm test",
+    "deploy": ""
   },
   "author": "Jimmy Zhening Luo <1450044+jimmy-zhening-luo@users.noreply.github.com> (https://jimm.my/)"
 }
