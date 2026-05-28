@@ -41,7 +41,7 @@
     "dev": "vite",
     "build": "vite build",
     "prestart": "npm run build",
-    "start": "vite preview --open",
+    "start": "node server.js",
     "lint": "eslint --cache --fix",
     "pretest": "npm run build",
     "test": "",
