@@ -1,4 +1,4 @@
-const SESSION_ENDPOINT = "https://agent-server.azurewebsites.net/api/create-session";
+const SESSION_ENDPOINT = "https://chat-server.jim.so/api/create-session";
 
 export function createClientSecretFetcher(workflow: string) {
   return async (currentSecret: string | null) => {
