@@ -16,12 +16,9 @@
   },
   "type": "module",
   "dependencies": {
-    "@openai/chatkit": "^1.7.0",
     "@openai/chatkit-react": "^1.5.1",
-    "express": "^5.2.1",
     "react": "^19.2.6",
-    "react-dom": "^19.2.6",
-    "vite-express": "^0.22.1"
+    "react-dom": "^19.2.6"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.0",
@@ -41,7 +38,7 @@
     "dev": "vite",
     "build": "vite build",
     "prestart": "npm run build",
-    "start": "node server.js",
+    "start": "vite preview",
     "lint": "eslint --cache --fix",
     "pretest": "npm run build",
     "test": "",
