@@ -1,11 +1,11 @@
-const SESSION_ENDPOINT = "/api/create-session",
-readEnvString = (value: unknown) => typeof value === "string"
-  && value.trim()
-  || undefined;
+const SESSION_ENDPOINT = "/api/create-session";
 
 export const workflowId = (
   () => {
-    const id = readEnvString(
+    const readEnvString = (value: unknown) => typeof value === "string"
+      && value.trim()
+      || undefined,
+    id = readEnvString(
       import
         .meta
         .env
