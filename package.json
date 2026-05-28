@@ -17,7 +17,7 @@
   "type": "module",
   "dependencies": {
     "@openai/chatkit": "^1.7.0",
-    "@openai/chatkit-react": ">=1.5.1",
+    "@openai/chatkit-react": "^1.5.1",
     "express": "^5.2.1",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
@@ -28,7 +28,7 @@
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react": "^6.0.2",
+    "@vitejs/plugin-react-swc": "^4.3.1",
     "globals": "^17.6.0",
     "linted": "41.9.0",
     "postcss": "^8.5.15",

@@ -1,6 +1,7 @@
 import path from "node:path";
-import react from "@vitejs/plugin-react";
-import { defineConfig } from "vite";
+import react from "@vitejs/plugin-react-swc";
+import { defineConfig, loadEnv } from "vite";
+
 
 const DEFAULT_API_TARGET = "https://agent-server.azurewebsites.net",
 apiTarget = process.env.VITE_API_URL ?? DEFAULT_API_TARGET;
