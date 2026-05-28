@@ -3,7 +3,7 @@
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "$schema": "https://json.schemastore.org/package",
   "name": "agent",
-  "version": "0.5.0-rc.5",
+  "version": "0.5.0-rc.6",
   "repository": "github:jimmy-zhening-luo/agent",
   "description": "Xfinity AI support agent",
   "keywords": [],
