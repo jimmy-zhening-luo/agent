@@ -1,5 +1,5 @@
 --- # PROD.main.yml
-name: Azure Deploy (PROD.main)
+name: Azure App Service Deploy
 on:
   push:
     branches: [main]

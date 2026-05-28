@@ -1,8 +1,8 @@
 # [`agent`](https://github.com/jimmy-zhening-luo/agent)
 
-[![Azure Deploy (PROD.main)](https://github.com/jimmy-zhening-luo/agent/actions/workflows/PROD.main.yml/badge.svg)](https://github.com/jimmy-zhening-luo/agent/actions/workflows/PROD.main.yml)
+[![Azure App Service Deploy](https://github.com/jimmy-zhening-luo/agent/actions/workflows/PROD.main.yml/badge.svg)](https://github.com/jimmy-zhening-luo/agent/actions/workflows/PROD.main.yml)
 
-Xfinity AI support agent
+Xfinity AI support agent.
 
 ## Server
 
