@@ -8,13 +8,12 @@ import {
 } from "../lib/chatkitSession";
 
 export function ChatKitPanel() {
-  const getClientSecret =   createClientSecretFetcher(
-    workflowId,
-  ),
-  { control } = useChatKit(
+  const { control } = useChatKit(
     {
       api: {
-        getClientSecret,
+        getClientSecret: createClientSecretFetcher(
+          workflowId,
+        ),
       },
     },
   );
