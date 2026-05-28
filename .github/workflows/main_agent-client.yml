@@ -33,7 +33,7 @@ jobs:
         id: stage
         uses: actions/upload-artifact@v7
         with:
-          name: agent-client
+          name: node-app
           path: .
 
   deploy:
@@ -47,7 +47,7 @@ jobs:
       - name: Download Staged App
         id: download
         uses: actions/download-artifact@v8
-        with: {name: agent-client}
+        with: {name: node-app}
       - name: Authenticate to Azure
         id: auth
         uses: Azure/login@v3
