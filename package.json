@@ -15,6 +15,7 @@
     "npm": "^11"
   },
   "type": "module",
+  "main": "server.js",
   "dependencies": {
     "@openai/chatkit-react": "^1.5.1",
     "express": "^5.2.1",
@@ -40,7 +41,6 @@
     "dev": "vite",
     "build": "vite build",
     "prestart": "npm run build",
-    "start": "node server.js",
     "lint": "eslint --cache --fix",
     "pretest": "npm run build",
     "test": "",
