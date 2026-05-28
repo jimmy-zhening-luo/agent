@@ -1,24 +1,5 @@
 const SESSION_ENDPOINT = "/api/create-session";
 
-export const workflowId = (
-  () => {
-    const readEnvString = (value: unknown) => typeof value === "string"
-      && value.trim()
-      || undefined,
-    id = readEnvString(
-      import
-        .meta
-        .env
-        .VITE_CHATKIT_WORKFLOW_ID,
-    );
-
-    if (!id)
-      throw new ReferenceError("No VITE_CHATKIT_WORKFLOW_ID environmental variable found.");
-
-    return id;
-  }
-)();
-
 export function createClientSecretFetcher(workflow: string) {
   return async (currentSecret: string | null) => {
     if (currentSecret)
