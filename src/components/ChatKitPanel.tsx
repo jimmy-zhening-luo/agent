@@ -1,4 +1,3 @@
-import { useMemo } from "react";
 import {
   ChatKit,
   useChatKit,
@@ -9,11 +8,8 @@ import {
 } from "../lib/chatkitSession";
 
 export function ChatKitPanel() {
-  const getClientSecret = useMemo(
-    () => createClientSecretFetcher(
-      workflowId,
-    ),
-    [],
+  const getClientSecret =   createClientSecretFetcher(
+    workflowId,
   ),
   { control } = useChatKit(
     {
