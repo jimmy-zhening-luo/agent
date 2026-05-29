@@ -20,16 +20,16 @@
     "@openai/chatkit-react": "^1.5.1",
     "@vitejs/plugin-react-swc": "^4.3.1",
     "express": "^5.2.1",
-    "react-dom": "^19.2.6",
     "react": "^19.2.6",
-    "vite-express": "^0.22.1",
-    "vite": "^8.0.14"
+    "react-dom": "^19.2.6",
+    "vite": "^8.0.14",
+    "vite-express": "^0.22.1"
   },
   "devDependencies": {
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "linted": "41.10.0",
+    "linted": "41.11.0",
     "typescript": "^6.0.3"
   },
   "scripts": {
