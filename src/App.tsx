@@ -25,7 +25,10 @@ export default function App() {
 
   return (
     <main>
-      <div style={{ width: "100%", height: "95vh" }}>
+      <div style={{
+        width: "100%",
+        height: "95vh",
+      }}>
         <ChatKit control={control}/>
       </div>
     </main>
