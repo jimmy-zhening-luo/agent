@@ -5,6 +5,7 @@ import {
 
 import { workflow } from "./lib/env";
 import { createClientSecretFetcher } from "./lib/session";
+import { ui } from "./lib/ui";
 
 export default function App() {
   const { control } = useChatKit(
@@ -12,6 +13,7 @@ export default function App() {
       api: {
         getClientSecret: createClientSecretFetcher(workflow),
       },
+      ...ui,
     },
   );
 
