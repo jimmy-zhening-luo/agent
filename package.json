@@ -22,7 +22,6 @@
     "express": "^5.2.1",
     "react-dom": "^19.2.6",
     "react": "^19.2.6",
-    "typescript": "^6.0.3",
     "vite-express": "^0.22.1",
     "vite": "^8.0.14"
   },
@@ -30,7 +29,8 @@
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "linted": "41.10.0"
+    "linted": "41.10.0",
+    "typescript": "^6.0.3"
   },
   "scripts": {
     "clean": "cmd /q /c \"for %G in (types dist build packed .svelte-kit) do (if exist %G rmdir /s /q %G) & for %G in (.eslintcache) do (if exist %G del /f /q %G)\" || rm -rf types dist build packed .svelte-kit .eslintcache",
