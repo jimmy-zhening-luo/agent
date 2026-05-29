@@ -1,18 +1,3 @@
 export const workflow = (
-  () => {
-    const readEnv = (value: unknown) => typeof value === "string"
-      && value.trim()
-      || undefined,
-    id = readEnv(
-      import
-        .meta
-        .env
-        .VITE_CHATKIT_WORKFLOW_ID,
-    );
-
-    if (!id)
-      throw new ReferenceError("No VITE_CHATKIT_WORKFLOW_ID environmental variable found.");
-
-    return id;
-  }
+  () => "wf_6a125c8857cc81909cdde94d16b23fd103b4f7945a5f0e42"
 )();
