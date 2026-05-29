@@ -7,7 +7,7 @@ const ui: Omit<UseChatKitOptions, "api"> = {
   },
   frameTitle: "Xfinity Home Internet Support",
   composer: {
-    placeholder: "Ask a question about your Xfinity Home Internet service...",
+    placeholder: "Ask a question about your Xfinity service",
   },
   startScreen: {
     greeting: "Welcome to Xfinity Home Internet customer support! How may I assist you today?",
@@ -17,7 +17,7 @@ const ui: Omit<UseChatKitOptions, "api"> = {
         prompt: "How do I reset my router?",
       },
       {
-        label: "How do I set up my Xfinity Home Internet gateway?",
+        label: "How do I set up my Xfinity gateway?",
         prompt: "How do I set up my Xfinity Home Internet gateway?",
       },
     ],
