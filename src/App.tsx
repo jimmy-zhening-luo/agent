@@ -3,7 +3,10 @@ import {
   useChatKit,
 } from "@openai/chatkit-react";
 
-import { workflow } from "./lib/env";
+import {
+  endpoint,
+  workflow,
+} from "./lib/env";
 import { createClientSecretFetcher } from "./lib/session";
 import { ui } from "./lib/ui";
 
@@ -11,7 +14,10 @@ export default function App() {
   const { control } = useChatKit(
     {
       api: {
-        getClientSecret: createClientSecretFetcher(workflow),
+        getClientSecret: createClientSecretFetcher(
+          endpoint,
+          workflow,
+        ),
       },
       ...ui,
     },

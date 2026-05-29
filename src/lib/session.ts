@@ -1,12 +1,13 @@
-const SESSION_ENDPOINT = "https://chat-server.jim.so/api/create-session";
-
-export function createClientSecretFetcher(workflow: string) {
+export function createClientSecretFetcher(
+  endpoint: string,
+  workflow: string,
+) {
   return async (currentSecret: string | null) => {
     if (currentSecret)
       return currentSecret;
 
     const response = await fetch(
-      SESSION_ENDPOINT,
+      endpoint,
       {
         method: "POST",
         headers: {
