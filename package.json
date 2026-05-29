@@ -18,22 +18,22 @@
   "main": "server.js",
   "dependencies": {
     "@openai/chatkit-react": "^1.5.1",
+    "@tailwindcss/postcss": "^4.3.0",
+    "@vitejs/plugin-react-swc": "^4.3.1",
     "express": "^5.2.1",
-    "react": "^19.2.6",
+    "postcss": "^8.5.15",
     "react-dom": "^19.2.6",
-    "vite-express": "^0.22.1"
+    "react": "^19.2.6",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
+    "vite-express": "^0.22.1",
+    "vite": "^8.0.14"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4.3.0",
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.15",
     "@types/react-dom": "^19.2.3",
-    "@vitejs/plugin-react-swc": "^4.3.1",
-    "linted": "41.10.0",
-    "postcss": "^8.5.15",
-    "tailwindcss": "^4.3.0",
-    "typescript": "^6.0.3",
-    "vite": "^8.0.14"
+    "linted": "41.10.0"
   },
   "scripts": {
     "clean": "cmd /q /c \"for %G in (types dist build packed .svelte-kit) do (if exist %G rmdir /s /q %G) & for %G in (.eslintcache) do (if exist %G del /f /q %G)\" || rm -rf types dist build packed .svelte-kit .eslintcache",
