@@ -20,6 +20,10 @@ const ui: Omit<UseChatKitOptions, "api"> = {
         label: "How do I set up my Xfinity gateway?",
         prompt: "How do I set up my Xfinity Home Internet gateway?",
       },
+      {
+        label: "How to find network name/password?",
+        prompt: "How do I find my network name and password?",
+      },
     ],
   },
 };
