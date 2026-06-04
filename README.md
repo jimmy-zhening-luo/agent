@@ -49,7 +49,6 @@ Unsupported scenarios at any time are automatically routed to customer support t
 <img width="3320" height="874" alt="Agent Design" src="https://github.com/user-attachments/assets/85b10696-f7ba-44f7-9eb5-5c3092d03e87" />
 
 1. __Ingress:__ User Prompt
-   1. Site-embedded UI
    1. Input Guardrail: Jailbreak, Topicality
 1. __Intent Classifier:__ route to correct agent to assist with customer support need
 1. __Agents:__ task handlers for individual intent taxa
