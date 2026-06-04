@@ -1,0 +1,24 @@
+Question,Intent,Actual Classification,Correct (+1),Loss Analysis
+How do I reset my router?,Informational,Informational,1,
+How to set up my Xfinity Home Internet gateway?,Informational,Informational,1,
+How do I check if my internet is down?,Troubleshoot,Troubleshoot,1,
+How do I add a device to my Xfinity network?,Informational,Informational,1,
+How do I restart my Xfinity gateway?,Informational,Informational,1,
+How do I reset my Xfinity gateway?,Informational,Informational,1,
+What's my network name?,Informational,Account,0,"Have to ask ""how do I find my network [name/password"" to get correct classification."
+What's my network password?,Informational,Account,0,"Have to ask ""how do I find my network [name/password"" to get correct classification."
+How do I find my network name?,Informational,Informational,1,
+How do I find my network password?,Informational,Informational,1,
+How do I change my network name?,Informational,Informational,1,
+How do I change my network password?,Informational,Informational,1,
+Is there an outage in my area?,Informational,Account,0,"Have to ask ""how do I check whether there's an outage in my area?"""
+How do I check whether there's an outage in my area?,Informational,Informational,1,
+How do I use my own modem?,Informational,Informational,1,
+How to test internet speed?,Informational,Informational,1,
+How to set up parental controls?,Informational,Informational,1,
+What happens when I hit my data cap?,Informational,Informational,1,
+Which Xfinity Home Internet plan is best for a casual gamer?,Informational,Informational,1,
+"I just moved to a new house, how can I check if my house is conneced to Xfinity network?",Informational,Account,0,Needs more investigation.
+"My internet is not working, what do I do?",Troubleshoot,Troubleshoot,1,
+I want to cancel my plan with Xfinity,Account,Account,1,
+How do I get faster Internet? Do I need better hardware?,Troubleshoot,Informational,0,"This requires expert troubleshooting using information from many different pages, and should be classified as troubleshoot."
