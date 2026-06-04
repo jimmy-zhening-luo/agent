@@ -1,0 +1,412 @@
+Question,Required Info,Canonical URL,Actual Answer,Needs Met (0-2),Has URL (+1),Score (0-3),Loss Analysis
+How do I reset my router?,"Step by step instructions on how to reset router, must match the steps in the canonical URL.",https://www.xfinity.com/support/articles/troubleshooting-your-cable-modem,"If you mean restart/reboot your Xfinity router/gateway, try this first:
+
+Using the Xfinity app
+
+Open the Xfinity app and sign in.
+
+Tap the WiFi icon.
+
+Tap Troubleshoot.
+
+Select Restart your Gateway.
+
+The restart can take about 12 minutes, and your home network will be unavailable during that time. (xfinity.com)
+xfinity.com
+
+Manual restart
+
+Unplug the power cable from your gateway/router.
+
+Wait 1 minute.
+
+Plug it back in.
+
+Wait for it to fully reconnect. (xfinity.com)
+xfinity.com
+
+If you mean a factory reset — which erases your custom WiFi name/password and restores defaults — use a paperclip or pin to press and hold the Reset button on the back of the gateway for 30 seconds, then reconnect using the default WiFi info printed on the gateway label. Only do this if a normal restart doesn’t fix the issue. (xfinity.com)
+xfinity.com",2,1,3,
+How to set up my Xfinity Home Internet gateway?,,https://www.xfinity.com/support/articles/activate-xfi-gateway-app,"Here’s how to set up and activate your Xfinity Home Internet gateway:
+
+Download and open the Xfinity app
+Sign in with your Xfinity ID and password. You’ll need to be the Primary user or a Member on the account. (xfinity.com)
+xfinity.com
+
+Start activation
+In the app, select Get Started. If you’re replacing an existing gateway and don’t see the prompt, go to Account → Set up equipment or devices → Xfinity Gateway or Modem. (xfinity.com)
+xfinity.com
+
+Place your gateway
+Put it in an open area, a few feet off the floor, and avoid cramped spaces like closets or behind furniture for better WiFi coverage. (xfinity.com)
+xfinity.com
+
+Connect the coax cable
+Screw one end of the coax cable into the gateway’s Cable In/RF In port and the other end into an active cable wall outlet. Make sure it’s finger-tight. (xfinity.com)
+xfinity.com
+
+Plug in the power cord
+Connect the power adapter to the gateway and plug it into an electrical outlet. The gateway may be ready to activate in about 5 minutes. (xfinity.com)
+xfinity.com
+
+Wait for the gateway lights
+If your gateway has one light, it’s ready when the light turns white, either solid or blinking. If it has multiple lights, it’s ready when the top three lights are solid. (xfinity.com)
+xfinity.com
+
+Check the connection in the app
+Select Check Connection in the Xfinity app. If the outlet isn’t active, try another cable outlet. (xfinity.com)
+xfinity.com
+
+Name your WiFi and set a password
+The app will prompt you to create or confirm your WiFi network name and password. If you’re upgrading or moving service, you may be able to keep your previous settings. (xfinity.com)
+xfinity.com
+
+Finish setup
+Select Confirm and Finish Up. Your home network setup can take up to 10 minutes. Once complete, connect your phone and other devices to your new WiFi network. (xfinity.com)
+xfinity.com
+
+If you’re in a WiFi Ready Apartment with a pre-installed leased Xfinity Gateway, you may not need to physically install the gateway—just activate it through the Xfinity app. (xfinity.com)
+xfinity.com",2,1,3,
+How do I add a device to my Xfinity network?,"Explain how to find Wi-Fi network name and password, then provide instructions for joining.",https://www.xfinity.com/support/articles/connecting-your-smartphone-or-tablet-to-your-home-network,"To add a device to your Xfinity home WiFi network:
+
+Open the Xfinity app and sign in with your Xfinity ID.
+
+Go to the WiFi tab.
+
+Tap WiFi Details to view your WiFi network name and password.
+
+On the device you want to add, open its WiFi settings.
+
+Select your Xfinity home WiFi network name.
+
+Enter the WiFi password, then connect. (xfinity.com)
+xfinity.com
+
+If you’re trying to connect to an Xfinity WiFi hotspot instead, choose the xfinitywifi network from the device’s WiFi list, open a browser, and sign in with your Xfinity ID and password. (xfinity.com)
+xfinity.com
+
+If the device won’t connect, especially a smart-home device like a camera, bulb, thermostat, or vacuum, it may only support 2.4 GHz WiFi and may need special setup steps. (xfinity.com)
+xfinity.com",2,1,3,
+How do I restart my Xfinity gateway?,Provide instructions for soft resetting gateway that match those found on the canonical support page URL.,https://www.xfinity.com/support/articles/troubleshooting-your-cable-modem,"You can restart your Xfinity Gateway in either of these ways:
+
+Using the Xfinity app
+
+Open the Xfinity app and sign in with your Xfinity ID and password.
+
+Tap the WiFi icon.
+
+Select Troubleshoot.
+
+Choose Restart your Gateway.
+
+The restart usually takes about 12 minutes. During that time, your home network won’t be available. If you have Xfinity Voice, home phone service — including 911 calls — won’t work until the gateway is back online. (xfinity.com)
+xfinity.com
+
+Manual restart
+
+Unplug the gateway’s power cable.
+
+Wait one minute.
+
+Plug the power cable back in.
+
+This is different from a factory reset and should not erase your WiFi name, password, or settings. (xfinity.com)
+xfinity.com",2,1,3,
+How do I reset my Xfinity gateway?,Provide instructions for both soft resetting & hard resetting (factory restting) gateway that match those found on the canonical support page URL(s),"https://www.xfinity.com/support/articles/troubleshooting-your-cable-modem
+https://www.xfinity.com/support/articles/factory-reset-xfinity-gateway?msockid=2fe8361939a56e16141f20b838b36fdf
+","You can either restart your Xfinity Gateway or do a factory reset.
+
+Restart your Gateway — recommended first
+This keeps your WiFi name, password, and settings.
+
+Using the Xfinity app:
+
+Open the Xfinity app and sign in.
+
+Tap the WiFi icon.
+
+Tap Troubleshoot.
+
+Select Restart your Gateway.
+
+The restart takes about 12 minutes, and your home network will be offline during that time. (xfinity.com)
+xfinity.com
+
+Manual restart:
+
+Unplug the Gateway’s power cable.
+
+Wait 1 minute.
+
+Plug it back in. (xfinity.com)
+xfinity.com
+
+Factory reset — only if needed
+A factory reset erases custom settings like your WiFi name and password.
+
+For an Xfinity Gateway with a reset button:
+
+Find the small Reset hole/button on the back of the Gateway.
+
+Use a paperclip or pin to press and hold it for 30 seconds.
+
+Release it and wait for the lights to stabilize.
+
+Reconnect devices using the default WiFi name and password on the Gateway label. (xfinity.com)
+xfinity.com
+
+If you have Xfinity Voice, phone service — including 911 — won’t work until the Gateway comes back online. (xfinity.com)
+xfinity.com",2,1,3,
+What's my network name?,Provide instructions for finding the current network name in the Xfinity app.,https://www.xfinity.com/support/articles/view-change-wifi-password,,0,0,0,"I have to ask ""How do I find my network name?"", otherwise it classifies as non-informational. Query intent loss."
+What's my network password?,Provide instructions for finding the current network name and password in the Xfinity app.,https://www.xfinity.com/support/articles/view-change-wifi-password,,0,0,0,"I have to ask ""How do I find my network password?"", otherwise it classifies as non-informational. Query intent loss."
+How do I find my network name?,Provide instructions for finding the current network name in the Xfinity app.,https://www.xfinity.com/support/articles/view-change-wifi-password,"You can find your Xfinity WiFi network name — also called the SSID — in the Xfinity app:
+
+Open the Xfinity app and sign in with your Xfinity ID.
+
+Tap WiFi.
+
+Tap WiFi Details.
+
+Your network name and WiFi password will be shown there. (xfinity.com)
+xfinity.com
+
+If you’ve never changed it, you can also check the label on the side or bottom of your Xfinity Gateway for the default network name and password. (xfinity.com)
+xfinity.com",2,1,3,
+How do I find my network password?,Provide instructions for finding the current network name and password in the Xfinity app.,https://www.xfinity.com/support/articles/view-change-wifi-password,"You can find your Xfinity WiFi network password in the Xfinity app:
+
+Open the Xfinity app and sign in with your Xfinity ID.
+
+Tap the WiFi tab.
+
+Tap WiFi details.
+
+Your network name and password will be shown there. You can also select Edit WiFi settings if you need to change it. (xfinity.com)
+xfinity.com
+
+Other options:
+
+On an X1 TV Box: Use your Xfinity Voice Remote and say, “What’s my WiFi name?” The TV will show your WiFi name and password. (xfinity.com)
+xfinity.com
+
+On the gateway label: If you never changed the default WiFi info, the network name and password may be printed on a label on the side or bottom of your Xfinity Gateway. (xfinity.com)
+xfinity.com
+
+Note: Only Primary, Manager, or Member Xfinity ID users can access the WiFi tab in the Xfinity app.",2,1,3,
+How do I change my network name?,Provide instructions for changing current network name in the Xfinity app.,https://www.xfinity.com/support/articles/view-change-wifi-password,"You can change your WiFi network name in the Xfinity app:
+
+Open the Xfinity app and sign in.
+
+Tap WiFi.
+
+Select WiFi details.
+
+Tap Edit WiFi settings.
+
+Enter your new WiFi name.
+
+Tap Save.
+
+After you change the network name, you’ll need to reconnect your WiFi devices using the new name. Xfinity recommends using the same network name and password for all WiFi bands for the strongest connection. (xfinity.com)
+xfinity.com
+
+Note: If you have an older rented Xfinity Gateway, such as an XB2 or XB3, you may also be able to change it through the Gateway Admin Tool, but for XB6 or newer Gateways or if you have Xfinity WiFi Extenders, you’ll need to use the Xfinity app. (xfinity.com) 
+xfinity.com",2,1,3,
+How do I change my network password?,Provide instructions for changing current network name and password in the Xfinity app.,https://www.xfinity.com/support/articles/view-change-wifi-password,"To change your Xfinity WiFi network password, use the Xfinity app:
+
+Open the Xfinity app and sign in.
+
+Select WiFi.
+
+Select WiFi details.
+
+Tap Edit WiFi settings.
+
+Enter your new WiFi password.
+
+Select Save.
+
+After you change it, you’ll need to reconnect all your WiFi devices using the new password. Xfinity recommends using the same network name and password for all WiFi bands for the best experience. (xfinity.com)
+xfinity.com
+
+Note: If you have an older rented Xfinity Gateway, such as an XB2 or XB3, you may also be able to change it through the Gateway Admin Tool at 10.0.0.1, but for XB6 or newer gateways and networks with Xfinity WiFi Extenders, you’ll need to use the Xfinity app. (xfinity.com) 
+xfinity.com",2,1,3,
+How do I check if my internet is down?,Provide instructions for checking internet status,https://www.xfinity.com/support/articles/internet-connectivity-troubleshooting,,0,0,0,"Correctly categorizes this as a troubleshooting query, (turn-based), which the AI agent does not support yet. However, this could have also been answered as an informational query by providing the steps in the provided link."
+Why is my Internet slow?,Provide instructions for managing and optimizing Wi-Fi network,https://www.xfinity.com/support/articles/improve-your-wireless-home-network,,0,0,0,"Correctly categorizes this as a troubleshooting query, (turn-based), which the AI agent does not support yet. However, this could have also been answered as an informational query by providing the steps in the provided link."
+How do I check how much data I've used?,Provide instructions for checking Internet data usage in the Xfinity app or on the website.,https://www.xfinity.com/support/articles/data-usage-usage-history,"You can check your Xfinity Internet data usage either online or in the Xfinity app:
+
+In the Xfinity app
+Open the Xfinity app and sign in with your Xfinity ID.
+
+Tap Services.
+
+Under Internet, select Internet data usage.
+
+If you have an Xfinity Gateway, you may also be able to go to WiFi → View WiFi equipment → Advanced settings → Data Usage. (xfinity.com)
+xfinity.com
+
+Online
+Go to the Devices page on xfinity.com.
+
+Sign in with your Xfinity ID and password.
+
+Look for the Data Usage Overview section. (xfinity.com)
+xfinity.com
+
+Note: You may need to be signed in as a Primary or Manager user to view the usage meter. (xfinity.com)
+xfinity.com",2,1,3,
+Is there an outage in my area?,Provide instructions for checking the Xfinity app for any ongoing service outages in the area.,https://www.xfinity.com/support/articles/check-service-outage,,0,0,0,"Have to phrase as ""how do I check whether there's an outage in my area"" to get it to answer."
+How do I check whether there's an outage in my area?,Provide instructions for checking the Xfinity app for any ongoing service outages in the area.,https://www.xfinity.com/support/articles/check-service-outage,"You can check for an Xfinity outage in your area in three ways:
+
+Use the Xfinity app
+
+Open the Xfinity app and sign in.
+
+If your location is affected, outage information should appear.
+
+Tap View outage details to see the outage type, cause, repair status, and estimated fix time if available. (xfinity.com)
+xfinity.com
+
+Use the Xfinity Outage Map
+
+Go to the Xfinity Outage Map.
+
+Sign in and select the house icon for your location, or enter your service address if you’re not signed in.
+
+The map only shows outages for addresses that receive Xfinity service. (xfinity.com)
+xfinity.com
+
+Text Xfinity
+
+If your mobile number is registered for Xfinity texts, text OUT to 266278 — COMCST — to check for outages in your area.
+
+Message and data rates may apply. (xfinity.com)
+xfinity.com
+
+If no outage is listed but your service still isn’t working, you can use Report an outage on the Outage Map or ask Xfinity Assistant for troubleshooting help.",2,1,3,
+How do I use my own modem?,"Provide instructions for checking whether the third-party equipment is supported  (compatability), installing, and activation in the app.",https://www.xfinity.com/support/articles/list-of-approved-cable-modems,"You can use your own modem with Xfinity Internet, but it must be approved/compatible with Xfinity and support the speed tier on your plan.
+
+Steps:
+
+Check compatibility
+
+Use Xfinity’s My Device Info / Compatible Modems tool to confirm your modem works with Xfinity and supports your plan speed.
+
+If it’s not supported, it won’t work with Xfinity service. (xfinity.com)
+xfinity.com
+
+Make sure you have the right equipment
+
+A modem alone usually does not provide WiFi.
+
+You’ll need either:
+
+a modem + separate router, or
+
+a gateway that combines modem and router. (xfinity.com)
+xfinity.com
+
+Connect the modem
+
+Connect the coax cable to the modem.
+
+Plug in power.
+
+If using a separate router, connect the modem to the router with Ethernet.
+
+Activate it in the Xfinity app
+
+Open the Xfinity app and sign in.
+
+Go to Account → Set up equipment or devices → choose Xfinity Gateway or Modem under Internet.
+
+Follow the prompts. Activation usually takes about 20 minutes. (xfinity.com)
+xfinity.com
+
+You’re responsible for your own equipment
+
+You’ll need to keep the modem/router updated and secure, set up your WiFi security, and troubleshoot device-specific issues using the manufacturer’s manual. (xfinity.com)
+xfinity.com
+
+If you’re replacing rented Xfinity equipment, you may also want to return the old gateway so you’re not charged rental fees.",2,1,3,
+How to test internet speed?,Provide instructions for checking both gateway and current device speed in the Xfinity app.,"https://www.xfinity.com/support/articles/xfinity-speed-test-faqs
+https://www.xfinity.com/support/articles/test-speed-to-gateway-xfinity-app","To test your internet speed with Xfinity:
+
+Go to speedtest.xfinity.com in a browser on your phone, tablet, or computer.
+
+Select Start Test.
+
+Review your download speed, upload speed, and latency results. (xfinity.com)
+xfinity.com
+
+For best results:
+
+Test the device you’re actually using, in the room where you use it.
+
+Close streaming apps, downloads, and other websites before testing.
+
+If possible, test with a computer connected directly to your gateway using an Ethernet cable for a more accurate view of your connection. (xfinity.com)
+xfinity.com
+
+If you rent an Xfinity Gateway, you can also use the Xfinity app:
+
+Sign in to the Xfinity app.
+
+Tap WiFi.
+
+Tap Troubleshoot.
+
+Select Test your whole home network. (xfinity.com)
+xfinity.com",2,1,3,
+How to set up parental controls?,Provide instructions for setting up parental controls in the Xfinity provided gateway admin panel.,https://www.xfinity.com/support/articles/set-up-parental-controls-with-comcast-networking,"To set up parental controls for your Xfinity home internet:
+
+Open the Xfinity app.
+
+Go to the WiFi tab.
+
+Under Connected to your WiFi, create or select a person/profile for your child.
+
+If needed, tap Add a person, enter a name, choose an icon, and save.
+
+Assign your child’s devices to that person/profile.
+
+Select Assign Device, choose the device(s), then tap Assign.
+
+Open that person’s Settings page.
+
+Select Parental Controls.
+
+Turn Parental Controls On.
+
+Only Primary and Manager users can set up parental controls. Devices must be assigned to a person before controls can be applied. Xfinity notes that blocked content should take effect fairly quickly, but previously accessed content may remain available for up to 24 hours due to caching. Parental controls apply only to devices connected to your personal home network. (xfinity.com)
+xfinity.com
+
+When enabled, Xfinity also applies protections like Google SafeSearch On, Bing SafeSearch Strict, and YouTube Restricted Mode On for that person’s assigned devices. (xfinity.com)
+xfinity.com
+
+You can also use the same profile area to set Downtime Schedules, Active Time Limits, or Pause All Devices for a child’s devices. (xfinity.com)
+xfinity.com
+
+Note: If you mean parental controls for Xfinity Stream or TV content, those are set separately in the Xfinity Stream app/portal and can block content by movie rating, TV rating, networks/channels, or specific titles. (xfinity.com) 
+xfinity.com",2,1,3,
+What happens when I hit my data cap?,"Explain what happens to internet when data cap is hit, using general terms.",https://www.xfinity.com/learn/internet-service/data,"If your Xfinity Internet plan has the 1.2 TB monthly data plan, here’s what happens when you go over:
+
+First time in a 12-month period: Xfinity gives you one courtesy month, so you won’t be charged for going over, no matter how much data you use that month.
+
+After the courtesy month is used: If you exceed 1.2 TB again, Xfinity automatically adds 50 GB blocks of data at $10 per 50 GB.
+
+Monthly overage limit: Overage charges are capped at $100 per month.
+
+Notifications: You’ll get alerts as you approach or exceed the limit, including email/text alerts at 90% and 100%, and again if overage fees reach $50 and $100. (xfinity.com)
+xfinity.com
+
+Also note: Xfinity says its new internet plans include unlimited data, and the 1.2 TB plan doesn’t apply to some customers/plans, including xFi Complete, Unlimited Data Option, Internet Essentials, Xfinity Prepaid, and certain Northeast markets. (xfinity.com)
+xfinity.com",1,0,1,"Partial win: general correct info provided, but makes assumptions about your actual data cap and goes onto tangent about legacy versus current plans. Problem is that the best source page is specifically for 1.2 TB (as opposed to my canonical URL page which links to a marketing page)."
+Which Xfinity Home Internet plan is best for a casual gamer?,Provide best data plan options based on actual data plan documentation,https://www.xfinity.com/hub/internet/internet-speed-for-gaming?msockid=20fea117ab5061e43e92b7c3aa376017,"For a casual gamer, I’d recommend starting with Xfinity’s 300 Mbps home internet plan if it’s available at your address. Xfinity says casual gaming generally only needs about 25–50 Mbps download and 0.5–1 Mbps upload, while a “light use” household with 1–2 casual gamers plus browsing/streaming is recommended around 100–200 Mbps download and 10–20 Mbps upload—so 300 Mbps gives you comfortable headroom without jumping to Gigabit. (xfinity.com)
+xfinity.com
+
+You probably don’t need 1 Gig or 2 Gig unless your home has multiple people gaming, streaming in 4K, downloading large games often, or doing competitive gaming/livestreaming. Xfinity lists 1000 Mbps as better for “gaming, creating, & working for entire home,” while 2000 Mbps is positioned as the fastest option for an ultimate connection. (xfinity.com)
+xfinity.com
+
+Bottom line: Choose 300 Mbps for casual gaming; consider 500 Mbps if you also work from home or have several active devices; consider 1 Gig+ only for heavier gaming households. Plan availability and actual speeds can vary by location and equipment. (xfinity.com)
+xfinity.com",2,1,3,
+"I just moved to a new house, how can I check if my house is conneced to Xfinity network?",Provide instructions for checking whether Xfinity Home Internet is supported at the current address.,https://www.xfinity.com/support/articles/determining-serviceability,,0,0,0,Identified as troubleshooting.
