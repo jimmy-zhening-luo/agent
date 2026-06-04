@@ -9,6 +9,7 @@ ViteExpress.config({ mode: "production" });
 app.use(
   express.static(
     path.join(
+      /* eslint-disable-next-line no-undef */
       process.cwd(),
       "dist",
     ),
