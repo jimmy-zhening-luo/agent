@@ -5,8 +5,12 @@
   "name": "agent",
   "version": "1.1.0",
   "repository": "github:jimmy-zhening-luo/agent",
-  "description": "Xfinity AI support agent",
-  "keywords": [],
+  "description": "Chat agent that assists Xfinity Home Internet customers with their various support needs, automating as many support tasks as possible.",
+  "keywords": [
+    "agent",
+    "chatkit",
+    "openai"
+  ],
   "license": "MIT",
   "private": true,
   "engineStrict": true,
