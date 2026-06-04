@@ -1,14 +1,12 @@
 {
-  "include": [
-    "src",
-  ],
-  "references": [
-    {
-      "path": "./tsconfig-node.json",
-    },
-  ],
   "compilerOptions": {
-    "composite": true,
+    "target": "ES2020",
+    "useDefineForClassFields": true,
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable",
+    ],
     "module": "ESNext",
     "moduleResolution": "Bundler",
     "resolveJsonModule": true,
@@ -17,15 +15,13 @@
     "noEmit": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
-    "types": [
-      "node",
-    ],
-    "target": "ES2020",
-    "useDefineForClassFields": true,
-    "lib": [
-      "ES2020",
-      "DOM",
-      "DOM.Iterable",
-    ],
   },
+  "include": [
+    "src",
+  ],
+  "references": [
+    {
+      "path": "./tsconfig-node.json",
+    },
+  ],
 }
