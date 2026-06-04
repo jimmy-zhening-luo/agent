@@ -8,10 +8,5 @@ export default linted(
         "no-undef": 0,
       },
     },
-    css: {
-      rules: {
-        "css/no-invalid-at-rules": 0,
-      },
-    },
   },
 );
