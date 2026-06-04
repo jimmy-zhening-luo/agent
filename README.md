@@ -54,7 +54,7 @@ Unsupported scenarios at any time are automatically routed to customer support t
 1. __Agents:__ task handlers for individual intent taxa
    1. Output Guardrail
 1. __End:__ User Choice
-   1. MVP: limited to “Done?” and “Connect to a live agent?”
+   1. MVP: limited to "Done?" and "Connect to a live agent?"
    1. Future: next turn
 
 ### Ingress
@@ -66,7 +66,7 @@ Unsupported scenarios at any time are automatically routed to customer support t
 
 #### Input Guardrail
 
-OpenAI’s off-the-shelf guardrail (GPT-5.4-nano) terminates chat if jailbreak or off-topic.
+OpenAI's off-the-shelf guardrail (GPT-5.4-nano) terminates chat if jailbreak or off-topic.
 
 ### Intent Classifier
 
@@ -76,7 +76,7 @@ Intent top-level taxonomy is a 1:1 map to Customer Support Need:
 1. Troubleshoot
 1. Account
 
-An agent (OpenAI’s GPT-5.5) classifies the support prompt into one of the three L1 intents.
+An agent (OpenAI's GPT-5.5) classifies the support prompt into one of the three L1 intents.
 
 Each intent has a specialized agent to handle it (1-to-1 mapping between L1 intent & agent).
 
@@ -102,7 +102,7 @@ Intent-to-agent map is a 1:1 map of L1 intent to corresponding agent:
 This agent will answer an informational question, and then ask the user whether their need has been met:
 
 - If needs met, end chat.
-- Else, fallback to “connect to live agent?” prompt.
+- Else, fallback to "connect to live agent?" prompt.
 
 ##### Information Retrieval
 
@@ -110,11 +110,11 @@ A dual-corpus search strategy is used:
 
 ###### _Primary Corpus: Online Web Search_
 
-The __support agent__, OpenAI’s GPT-5.5, retrieves information using its built-in web search tool, with instructions to source its answers from the canonical Xfinity Home Internet support sitemap node: [https://www.xfinity.com/support/internet](https://www.xfinity.com/support/internet)
+The __support agent__, OpenAI's GPT-5.5, retrieves information using its built-in web search tool, with instructions to source its answers from the canonical Xfinity Home Internet support sitemap node: [https://www.xfinity.com/support/internet](https://www.xfinity.com/support/internet)
 
 Xfinity Home Internet support documents are already pre-indexed with high query traffic on Google Search, thus the agent is expected to achieve high accuracy and precision by issuing a targeted search query and distilling the top results.
 
-GPT’s web search tool also automatically grounds answers with the relevant support URL as citation; this structured grounding serves as a naive guardrail against hallucination.
+GPT's web search tool also automatically grounds answers with the relevant support URL as citation; this structured grounding serves as a naive guardrail against hallucination.
 
 ###### _Secondary/Guard Corpus: Offline Semantic Search (Vector Store)_
 
@@ -122,7 +122,7 @@ The output of the agent is then filtered by an off-the-shelf hallucination __gua
 
 1. Crawl the Xfinity support site documents.
 1. Transform documents to Markdown.
-1. Create a vector mapping between the question (possible prompts) and answer (site documents) spaces using OpenAI’s off-the-shelf\* semantic embedding generator.
+1. Create a vector mapping between the question (possible prompts) and answer (site documents) spaces using OpenAI's off-the-shelf\* semantic embedding generator.
 
 \*Large language models have built-in semantic understanding, which would compensate for the lack of real-world prompts to use as a prior for embedding generation.
 
@@ -134,7 +134,7 @@ Despite being faster and possibly higher-accuracy, semantic search is only used 
 
 #### \[Future \- M2+\] Troubleshoot & Account
 
-In MVP, the Troubleshoot & Account agents will forward to the “connect to live agent” fallback.
+In MVP, the Troubleshoot & Account agents will forward to the "connect to live agent" fallback.
 
 # Release
 
@@ -161,7 +161,7 @@ __Eval set:__ [https://github.com/jimmy-zhening-luo/agent/blob/main/eval/intent.
 
 Each agent will also have a golden eval set of prompts that must meet user-needs-met release criteria. Each agent golden set is expected to grow over time (see Continuous Refinement below).
 
-Each agent’s user-needs-met will be evaluated by a human rater using the objective criteria defined for that agent.
+Each agent's user-needs-met will be evaluated by a human rater using the objective criteria defined for that agent.
 
 #### \[MVP\] Informational
 
