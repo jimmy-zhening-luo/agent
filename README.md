@@ -33,6 +33,10 @@ Unsupported scenarios at any time are automatically routed to customer support t
 
 ## Infrastructure
 
+<img width="1672" height="1965" alt="image" src="https://github.com/user-attachments/assets/4de02ec9-c20f-4444-95fd-2860a7b3a9a3" />
+
+<img width="1672" height="1965" alt="image" src="https://github.com/user-attachments/assets/c679d7e1-524d-4683-96ad-738b7981ea9f" />
+
 1. __Chat UI client:__ developer-hosted frontend with embedded [ChatKit](https://developers.openai.com/api/docs/guides/chatkit) UI, can be embedded on any site
    1. Repository (this): [https://github.com/jimmy-zhening-luo/agent](https://github.com/jimmy-zhening-luo/agent)
 1. __Session proxy server:__ developer-hosted server to negotiate session between client and agent host
