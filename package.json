@@ -33,7 +33,7 @@
     "@types/node": "^25.9.1",
     "@types/react": "^19.2.16",
     "@types/react-dom": "^19.2.3",
-    "linted": "41.11.2",
+    "linted": "41.11.3",
     "typescript": "^6.0.3"
   },
   "scripts": {
