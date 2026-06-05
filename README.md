@@ -92,9 +92,9 @@ Keeping intent classification at L1:
 
 Intent-to-agent map is a 1:1 map of L1 intent to corresponding agent:
 
-1. \[MVP\] Informational
-1. \[M2\] Troubleshoot
-1. \[M3\] Account
+1. Informational
+1. Troubleshoot
+1. Account
 1. \-\> (Fallback/Escalation) Connect to agent
 
 #### \[MVP\] Informational
@@ -151,9 +151,9 @@ Human raters will label golden eval sets for intent classifier and agents respec
 
 ### Intent Classifier
 
-A golden eval set of minimum 60 (n^3) prompts must be completely, correctly classified 10 times out of 10 to meet release criteria (600 out of 600 correct). For each L1 intent added, the golden eval set grows exponentially. (Four intents require 64 examples to be correctly classified 10 times out of 10.)
+A golden eval set of minimum 60 (n^k) prompts must be completely, correctly classified 10 times out of 10 to meet release criteria (600 out of 600 correct). For each L1 intent added, the golden eval set grows exponentially.
 
-The golden eval set will include the eval examples from all agents, too to avoid duplication across agents.
+The intent classifier golden set will include the eval examples from all agents, to enforce a given prompt is covered by the single, correct agent.
 
 __Eval set:__ [https://github.com/jimmy-zhening-luo/agent/blob/main/eval/intent.csv](https://github.com/jimmy-zhening-luo/agent/blob/main/eval/intent.csv)
 
