@@ -3,7 +3,7 @@
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "$schema": "https://json.schemastore.org/package",
   "name": "agent",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "repository": "github:jimmy-zhening-luo/agent",
   "description": "Chat agent that assists Xfinity Home Internet customers with their various support needs, automating as many support tasks as possible.",
   "keywords": [
