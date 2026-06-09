@@ -2,7 +2,7 @@
 
 [![Azure App Service Deploy](https://github.com/jimmy-zhening-luo/agent/actions/workflows/PROD.main.yml/badge.svg)](https://github.com/jimmy-zhening-luo/agent/actions/workflows/PROD.main.yml)
 
-_Author: [Jimmy Luo](https://github.com/jimmy-zhening-luo)_
+_Author: [Jimmy Luo](https://jimm.my/)_
 
 Chat agent that assists Xfinity Home Internet customers with their various support needs, automating as many support tasks as possible.
 
