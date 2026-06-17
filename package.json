@@ -3,7 +3,7 @@
   "$help": "https://docs.npmjs.com/cli/configuring-npm/package-json",
   "$schema": "https://json.schemastore.org/package",
   "name": "agent",
-  "version": "1.2.8",
+  "version": "1.2.9",
   "repository": "github:jimmy-zhening-luo/agent",
   "description": "Chat agent built on OpenAI's Agent SDK and ChatKit to assist Xfinity Home Internet customers, automating as many support tasks as possible.",
   "keywords": [
