@@ -5,9 +5,10 @@
   "name": "agent",
   "version": "1.2.8",
   "repository": "github:jimmy-zhening-luo/agent",
-  "description": "Chat agent that assists Xfinity Home Internet customers with their various support needs, automating as many support tasks as possible.",
+  "description": "Chat agent built on OpenAI's Agent SDK and ChatKit to assist Xfinity Home Internet customers, automating as many support tasks as possible.",
   "keywords": [
     "agent",
+    "agents-sdk",
     "chatkit",
     "openai"
   ],
@@ -30,10 +31,10 @@
     "vite-express": "^0.22.1"
   },
   "devDependencies": {
-    "@types/node": "^25.9.2",
+    "@types/node": "^25.9.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
-    "linted": "41.11.4",
+    "linted": "41.12.0",
     "typescript": "^6.0.3"
   },
   "scripts": {

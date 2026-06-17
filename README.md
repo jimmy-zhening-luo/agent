@@ -4,7 +4,7 @@
 
 _Author: [Jimmy Luo](https://jimm.my/)_
 
-Chat agent that assists Xfinity Home Internet customers with their various support needs, automating as many support tasks as possible.
+Chat agent built on OpenAI's Agent SDK and ChatKit to assist Xfinity Home Internet customers, automating as many support tasks as possible.
 
 # Business Statement
 
